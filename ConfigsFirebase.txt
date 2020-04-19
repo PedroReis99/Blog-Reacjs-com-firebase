@@ -1,0 +1,23 @@
+1° Firebase.google.com
+2° Abra o console do firebase
+3° Adicionar projeto
+4° Nome do projeto > clique em continuar
+5° Adicionar App (opção html)
+6° Nome do App > continuar para console
+7° Clique em Database no menu esquerdo
+8° verifique se as regras estão com true
+9° Na engrenagem do menu, clique na opção configurações do projeto
+10° No aba Geral, desça a pagina e copie:
+
+var firebaseConfig = {
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
+  };
+  firebase.initializeApp(firebaseConfig);
+
+11° Cole essas informações acima no local indicado do index.js da pasta firebase do projeto
